@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../Roboto-Regular.ttf);
+}
+body {
+    background-image: url(image7.jpg);
+    background-attachment: fixed;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    font-size: 20px;
+} 
+main {
+    margin: auto;
+    width: 75%;
+    height: 650px;
+    padding: 50px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    opacity: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: orange;
+    background-size: 100%;
+    transition: all 0.5s ease;
+    box-shadow: 4px 5px #888888;
+}
+.photo:hover {
+    transform: rotate(2deg) scale(1.08);
+    border: 1px solid black;
+}
+.name1 {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    background-color: steelblue;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name2 {
+    text-align: center;
+    margin-top: 20px;
+    width: 75%;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(184, 198, 236);
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.photo1 {
+    background-image: url(../img2/image1.jpg);
+}
+.photo2 {
+    background-image: url(../img2/image2.jpg);
+}
+.photo3 {
+    background-image: url(../img2/image3.jpg);
+}
+.photo4 {
+    background-image: url(../img2/image4.jpg);
+}
+.photo5 {
+    background-image: url(../img2/image5.jpg);
+}
+.photo6 {
+    background-image: url(../img2/image6.jpg);
+}
+.photo7 {
+    background-image: url(../img1/image7.jpg);
+}
+.photo8 {
+    background-image: url(../img1/image6.jpg);
+}
+.photo9 {
+    background-image: url(../img1/image1.jpg);
+}
+.photo10 {
+    background-image: url(../img1/image4.jpg);
+}
+.photo11 {
+    background-image: url(../img1/image11.jpg);
+}
+.photo12 {
+    background-image: url(../img1/image9.jpg);
+}
