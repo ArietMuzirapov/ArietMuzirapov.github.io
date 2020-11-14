@@ -33,6 +33,7 @@ main {
     margin: 10px;
     background-color: orange;
     background-size: 100%;
+    border-radius: 10px;
     transition: all 0.5s ease;
     box-shadow: 4px 5px #888888;
 }
